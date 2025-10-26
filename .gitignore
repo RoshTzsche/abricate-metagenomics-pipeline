@@ -1,0 +1,60 @@
+# Ignore FASTA and sequence input files
+*.fasta
+*.fa
+*.fna
+*.ffn
+*.faa
+*.frn
+
+# Ignore Abricate result files
+*.tab
+*.tsv
+*.csv
+*.json
+*.xml
+*.summary
+*.txt
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.err
+*.out
+
+# Ignore compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.bz2
+*.xz
+*.7z
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environments
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter checkpoints if you use notebooks
+.ipynb_checkpoints/
+
+# Ignore results and reports directories (optional)
+results/
+output/
+reports/
+abricate_results/
+abricate_summary/
+
+# Ignore test data directories if present
+test_data/
+data/raw/
+data/intermediate/
+abricate/
